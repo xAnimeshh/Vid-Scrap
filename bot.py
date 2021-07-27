@@ -15,15 +15,11 @@ import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 if __name__ == "__main__" :
-    plugins = dict(
-        root="plugins"
-    )
     app = Client(
         "Vid Scrap Bot",
         bot_token=Config.TG_BOT_TOKEN,
         api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
-        plugins=plugins
+        api_hash=Config.API_HASH
     )
     app.set_parse_mode("markdown")
     app.run()
