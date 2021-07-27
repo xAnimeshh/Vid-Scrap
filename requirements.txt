@@ -1,0 +1,7 @@
+aiohttp
+hachoir
+numpy
+Pillow
+pyrogram==1.0.7
+asyncio
+tgcrypto
