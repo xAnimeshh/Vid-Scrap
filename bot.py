@@ -20,7 +20,7 @@ if __name__ == "__main__" :
     )
     app = Client(
         "Vid Scrap Bot",
-        bot_token=Config.BOT_TOKEN,
+        bot_token=Config.TG_BOT_TOKEN,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
         plugins=plugins
