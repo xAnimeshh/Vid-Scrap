@@ -9,6 +9,7 @@ logger = logging.getLogger(__name__)
 
 import os
 from config import Config
+from pyrogram import Client, filters 
 
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
