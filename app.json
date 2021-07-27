@@ -1,8 +1,7 @@
 {
   "name": "AnyDLBot",
   "description": "A Bot to do lot of things for videos.... Create your Fork now.",
-  "keywords": ["telegram", "screenshot", "video"]
-  ],
+  "keywords": ["telegram", "screenshot", "video"],
   "success_url": "https://github.com/AVBotz-TG/Vid-Scrap",
   "website": "https://github.com/AVBotz-TG/Vid-Scrap",
   "repository": "https://github.com/AVBotz-TG/Vid-Scrap",
