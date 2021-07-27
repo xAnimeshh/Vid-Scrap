@@ -15,7 +15,10 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from .ffmpeg import generate_screen_shots
 from .progress import progress_for_pyrogram
 
-
+@Client.on_message(filters.command(["start"]))
+async def start(bot, update):
+  await update.reply_text("Hello... Use /screenshot or /Generate_ss", True)
+  
 @Client.on_message(filters.command(["generate_ss","screenshot"]))
 async def generate_screen_shot(bot, update):
     if update.reply_to_message is not None:
